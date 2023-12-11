@@ -1,0 +1,158 @@
+@charset "utf-8";
+body {
+    font-family: 'Work Sans' , sans-serif;
+/*
+    background-image: url(../img/hero_background.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0;
+*/
+}
+
+body header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    border-bottom: 1px solid #FFFFFF;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.regular {
+    font-size: large;
+    font-style: normal;
+    width: 425px;
+
+}
+.bold {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.btn  {
+    width: 175px;
+    height: auto;
+    min-height: 50px;
+    line-height: 50px;
+    background-color: #B7447B;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+.content {
+    width: 400px;
+}
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.thin  {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 40px;
+    min-height: 110px;
+    margin-bottom: -85px;
+    padding-bottom: 0px;
+}
+.white {
+    color: #FFFFFF;
+}
+
+
+
+.feature {
+    min-height: 390px;
+}
+body footer {
+    min-height: 120px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: left;
+}
+body footer div {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+
+
+.content .secondary-content p {
+}
+.content p {
+    font-weight: normal;
+    margin-bottom: -30px;
+}
+.content .spacer {
+    min-height: 250px;
+}
+
+
+
+.big  {
+    font-size: 65px;
+    margin-top: -35px;
+}
+
+
+@media ( max-width : 428px ){
+.feature {
+    min-height: 390px;
+    width: 428px;
+}
+.img-size {
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 33px;
+    margin-right: 0px;
+    font-size: small;
+}
+.none {
+    display: none;
+}
+.thin {
+    max-height: 12px;
+    margin-top: 200px;
+}
+	
+body {
+	width:428px;
+}
+	
+body main section {
+    width: 420px;
+    margin-top: -120px;
+}
+
+}
+
+@media (min-width: 429px) and (max-width: 3000px){
+.content .spacer .hero-mobile {
+    display: none;
+}
+.feature {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 390px;
+}
+
+
+
+
+}
